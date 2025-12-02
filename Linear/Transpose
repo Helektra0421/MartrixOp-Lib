@@ -1,0 +1,7 @@
+#include<stdio.h>
+#include"vectorOp.h"
+
+int* vTRAN(int* A,int* B,int size){
+
+    
+}
