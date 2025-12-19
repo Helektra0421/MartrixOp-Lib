@@ -39,7 +39,7 @@ int** vSUB(int** A,int** B,int size){
     return c;
 }
 
-int** vEWM(int* A,int* B,int size){
+int** vEWM(int** A,int** B,int size){
 
 	int i,j = 0;
 	int **c;
