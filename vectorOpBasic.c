@@ -38,3 +38,21 @@ int** vSUB(int** A,int** B,int size){
 	}
     return c;
 }
+
+int* vEWM(int* A,int* B,int size){
+
+	int i,j = 0;
+	int **c;
+	c = (int **)malloc(size * sizeof(int *));
+	
+	for(i = 0;i < size;i ++){
+		c[i] = (int *)malloc(size * sizeof(int));
+	}
+
+	for(i = 0;i < size;i ++){
+		for(j = 0;j < size;j ++){
+			*(*(c+j)+i) = *(*(A+j)+i) * *(*(B+j)+i);
+		}
+	}
+    return c;
+}
