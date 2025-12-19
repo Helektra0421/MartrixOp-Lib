@@ -55,7 +55,8 @@ int main(){
 	}
 	puts("");
 
-    c = vADD(a,b,SIZE);
+
+	c = vMULT(a,b,SIZE);
 
  	printf("matrix C =\n");
 	for(i = 0;i < 3;i ++){
