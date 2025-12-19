@@ -8,7 +8,7 @@ int** vEWM(int** A,int** B,int size);
 int** vMULT(int** A,int** B,int size);
 int** vTRAN(int** A,int size);
 
-int** vDET(int** A,int size);
+int vDET(int** A,int size);
 int** vADJ(int** A,int size);
 int** vINVER(int** A,int size);
 
